@@ -1,11 +1,16 @@
 const config = require("./config.json");
 const mysql = require("mysql");
 
-let pool = mysql.createPool({
-    host: config.dbhost,
-    user: config.dbuser,
-    password: config.dbpassword
-});
+const pool = mysql.createPool({
+    host: "localhost",
+    user: "root",
+    password: "@Technology1"
+  });
+
+//   pool.connect(function(err) {
+//     if (err) throw err;
+//     console.log("Connected!");
+//   });
 
 // ---------------- Driver Functions ------------------
 

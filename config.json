@@ -2,5 +2,6 @@
     "dbname": "Irrigation_DB",
     "dbuser": "root",
     "dbhost": "http://localhost:3306",
-    "dbpassword": "technology"
+    "dbpassword": "technology",
+    "portNo":3306
 }
